@@ -25,17 +25,13 @@ A simple React Native app built with Expo SDK 52 and Firebase Authentication usi
 
 ## 📁 Project Structure
 
-.
-├── App.tsx
-├── screens
-│ └── RegisterScreen.tsx
-├── services
-│ └── firebaseAuth.tsx
-└── assets/
-
-yaml
-Copy
-Edit
+. 
+├── App.tsx 
+├── screens 
+│ └── RegisterScreen.tsx 
+├── services 
+│ └── firebaseAuth.tsx 
+└── assets/ 
 
 ---
 
@@ -43,32 +39,24 @@ Edit
 
 ### 1. Clone the repo
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2. Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Set up Firebase
-Create a Firebase project at Firebase Console and enable Email/Password sign-in method under Authentication.
+```bash 
+git clone https://github.com/your-username/your-repo-name.git 
+cd your-repo-name 
+2. Install dependencies  
+npm install 
+3. Set up Firebase 
+Create a Firebase project at Firebase Console and enable Email/Password sign-in method under Authentication. 
 
-Then, copy your Firebase config into firebaseAuth.tsx:
+Then, copy your Firebase config into firebaseAuth.tsx: 
 
-ts
-Copy
-Edit
-const firebaseConfig = {
-  apiKey: "...",
-  authDomain: "...",
-  projectId: "...",
-  storageBucket: "...",
-  messagingSenderId: "...",
-  appId: "...",
+const firebaseConfig = { 
+  apiKey: "...", 
+  authDomain: "...", 
+  projectId: "...", 
+  storageBucket: "...", 
+  messagingSenderId: "...", 
+  appId: "...", 
 };
-4. Run the project
-bash
-Copy
-Edit
-npx expo start
+
+4. Run the project  
+npx expo start 
